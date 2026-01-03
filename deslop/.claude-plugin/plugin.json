@@ -1,0 +1,10 @@
+{
+  "name": "deslop",
+  "version": "1.0.0",
+  "description": "AI生成コードの不要な追加物（過剰なコメント、防御的なエラーハンドリング等）を検出・削除し、既存スタイルに一貫性のないコードを改善します。Use when reviewing AI-generated code for unnecessary additions or style inconsistencies.",
+  "author": {
+    "name": "Claude Code Community"
+  },
+  "license": "GPL-3.0",
+  "keywords": ["code-quality", "cleanup", "ai-review", "style-consistency"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pr-template",
+  "version": "1.0.0",
+  "description": "Generates comprehensive PR descriptions in English (default) or Japanese by analyzing pull request changes using GitHub CLI. Use after creating PR to document changes thoroughly.",
+  "author": {
+    "name": "Claude Code Community"
+  },
+  "license": "GPL-3.0",
+  "keywords": ["pr", "pull-request", "template", "documentation", "github", "code-review"]
+}

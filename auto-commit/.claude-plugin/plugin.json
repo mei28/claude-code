@@ -1,0 +1,10 @@
+{
+  "name": "auto-commit",
+  "version": "1.0.0",
+  "description": "Analyzes git diffs and automatically creates fine-grained commits with rule-based commit messages in English (default) or Japanese. Follows Angular.js conventions. Use when you have multiple unstaged changes that need to be organized into logical commits.",
+  "author": {
+    "name": "Claude Code Community"
+  },
+  "license": "GPL-3.0",
+  "keywords": ["git", "commit", "automation", "angular-commit", "version-control"]
+}

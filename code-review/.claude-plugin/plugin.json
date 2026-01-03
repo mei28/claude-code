@@ -1,0 +1,10 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "description": "Automated code review tool that analyzes code quality, detects bugs, identifies security vulnerabilities, and suggests improvements. Use before creating PR to ensure high code quality.",
+  "author": {
+    "name": "Claude Code Community"
+  },
+  "license": "GPL-3.0",
+  "keywords": ["code-review", "quality", "security", "bugs", "best-practices", "static-analysis"]
+}

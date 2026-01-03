@@ -1,0 +1,10 @@
+{
+  "name": "dig",
+  "version": "1.0.0",
+  "description": "Automatically reads context files (CLAUDE.md, etc.) and identifies ambiguities in architecture, data, API, UI/UX through structured questions to clarify implementation plans. Use when starting new features or when requirements are unclear.",
+  "author": {
+    "name": "Claude Code Community"
+  },
+  "license": "GPL-3.0",
+  "keywords": ["planning", "requirements", "architecture", "clarification", "ambiguity-detection"]
+}
