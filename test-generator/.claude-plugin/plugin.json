@@ -1,0 +1,10 @@
+{
+  "name": "test-generator",
+  "version": "1.0.0",
+  "description": "Automatically generates comprehensive unit tests for functions, classes, and modules. Supports multiple testing frameworks and generates meaningful test cases including edge cases. Use to improve test coverage quickly.",
+  "author": {
+    "name": "Claude Code Community"
+  },
+  "license": "GPL-3.0",
+  "keywords": ["testing", "unit-test", "test-generation", "tdd", "coverage", "automation"]
+}

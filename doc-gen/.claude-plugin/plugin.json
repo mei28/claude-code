@@ -1,0 +1,10 @@
+{
+  "name": "doc-gen",
+  "version": "1.0.0",
+  "description": "Generates comprehensive API documentation from code including OpenAPI/Swagger specs, JSDoc/TSDoc comments, and API reference guides. Supports REST APIs, GraphQL, and function libraries.",
+  "author": {
+    "name": "Claude Code Community"
+  },
+  "license": "GPL-3.0",
+  "keywords": ["documentation", "api-docs", "openapi", "swagger", "jsdoc", "tsdoc", "api-reference"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "changelog",
+  "version": "1.0.0",
+  "description": "Generates CHANGELOG.md from git commit history following Keep a Changelog format with semantic versioning. Categorizes changes and creates user-friendly release notes.",
+  "author": {
+    "name": "Claude Code Community"
+  },
+  "license": "GPL-3.0",
+  "keywords": ["changelog", "release-notes", "versioning", "semver", "keep-a-changelog", "git-history"]
+}

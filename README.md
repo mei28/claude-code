@@ -19,7 +19,7 @@ Detects and removes unnecessary additions in AI-generated code, helping maintain
 
 **Installation**:
 ```bash
-/plugin install https://github.com/YOUR_USERNAME/claude-code-commands/deslop
+/plugin install https://github.com/mei28/claude-code-commands/deslop
 ```
 
 **Usage**:
@@ -54,7 +54,7 @@ Identifies ambiguities in requirements and architecture through structured quest
 
 **Installation**:
 ```bash
-/plugin install https://github.com/YOUR_USERNAME/claude-code-commands/dig
+/plugin install https://github.com/mei28/claude-code-commands/dig
 ```
 
 **Usage**:
@@ -92,7 +92,7 @@ Analyzes unstaged git changes and automatically creates well-structured, logical
 
 **Installation**:
 ```bash
-/plugin install https://github.com/YOUR_USERNAME/claude-code-commands/auto-commit
+/plugin install https://github.com/mei28/claude-code-commands/auto-commit
 ```
 
 **Usage**:
@@ -124,7 +124,7 @@ Generates comprehensive PR descriptions in English (default) or Japanese by anal
 
 **Installation**:
 ```bash
-/plugin install https://github.com/YOUR_USERNAME/claude-code-commands/pr-template
+/plugin install https://github.com/mei28/claude-code-commands/pr-template
 ```
 
 **Usage**:
@@ -140,12 +140,193 @@ Generates comprehensive PR descriptions in English (default) or Japanese by anal
 
 ---
 
+### 🔍 [Code Review](./code-review) - Automated Code Quality Analysis
+
+Performs comprehensive automated code quality analysis, detecting bugs, security vulnerabilities, and suggesting improvements.
+
+**Use when**: Before creating a pull request to ensure high code quality
+
+**What it does**:
+- ✅ Analyzes code across 6 dimensions (quality, bugs, security, performance, best practices, accessibility)
+- ✅ Detects security vulnerabilities (SQL injection, XSS, authentication issues)
+- ✅ Identifies performance problems (N+1 queries, inefficient algorithms, memory leaks)
+- ✅ Checks best practices (error handling, logging, testing)
+- ✅ Prioritizes findings by severity (Critical, High, Medium, Low)
+- ✅ Provides code examples with fixes
+
+**Categories**:
+- 💎 Code Quality: Complexity, naming, structure
+- 🐛 Bug Detection: Null pointers, type errors, race conditions
+- 🔒 Security: Injection attacks, data exposure
+- ⚡ Performance: Inefficient code, blocking operations
+- ✅ Best Practices: Error handling, documentation
+- ♿ Accessibility: ARIA, semantic HTML
+
+**Installation**:
+```bash
+/plugin install https://github.com/mei28/claude-code-commands/code-review
+```
+
+**Usage**:
+```
+/code-review
+/code-review src/api/users.ts
+/code-review --security
+```
+
+---
+
+### 🧪 [Test Generator](./test-generator) - Automated Unit Test Creation
+
+Automatically generates comprehensive unit tests for functions, classes, and modules with meaningful test cases.
+
+**Use when**: After implementing features, for legacy code, or before refactoring
+
+**What it does**:
+- ✅ Generates normal cases, edge cases, error conditions, boundary values
+- ✅ Creates mocks for dependencies
+- ✅ Supports multiple frameworks (Jest, pytest, JUnit, Go testing, etc.)
+- ✅ Reduces manual test writing by up to 97%
+- ✅ Generates data-driven tests
+- ✅ Improves test coverage by 30-50%
+
+**Supported Frameworks**:
+- **JavaScript/TypeScript**: Jest, Vitest, Mocha, Jasmine
+- **Python**: pytest, unittest, nose2
+- **Java**: JUnit 5, TestNG, Mockito
+- **Go**: testing, testify
+- **Ruby**: RSpec, Minitest
+- **Rust**: Built-in test framework
+
+**Installation**:
+```bash
+/plugin install https://github.com/mei28/claude-code-commands/test-generator
+```
+
+**Usage**:
+```
+/test-generator
+/test-generator src/utils/calculator.ts
+/test-generator --coverage
+```
+
+---
+
+### ♻️ [Refactor](./refactor) - Code Quality Improvement
+
+Suggests and applies code refactoring improvements including complexity reduction and code smell removal.
+
+**Use when**: Before adding features, after code review feedback, or for technical debt reduction
+
+**What it does**:
+- ✅ Identifies refactoring opportunities with before/after examples
+- ✅ Reduces cyclomatic complexity
+- ✅ Extracts methods from long functions
+- ✅ Removes code duplication (DRY principle)
+- ✅ Replaces magic numbers with constants
+- ✅ Simplifies parameter lists
+- ✅ Applies safe automatic refactorings
+
+**Refactoring Patterns**:
+- 🔻 Complexity Reduction
+- 🔨 Extract Method
+- 🔄 Remove Duplication
+- 🎭 Replace Conditional with Polymorphism
+- 📦 Introduce Parameter Object
+- 🔢 Replace Magic Numbers
+
+**Installation**:
+```bash
+/plugin install https://github.com/mei28/claude-code-commands/refactor
+```
+
+**Usage**:
+```
+/refactor
+/refactor src/services/orderService.ts
+/refactor --suggest
+/refactor --apply
+```
+
+---
+
+### 📚 [Doc-Gen](./doc-gen) - API Documentation Generator
+
+Generates comprehensive API documentation from code including OpenAPI/Swagger specs and API reference guides.
+
+**Use when**: After implementing API endpoints, before releasing public APIs, or documenting legacy APIs
+
+**What it does**:
+- ✅ Generates OpenAPI/Swagger 3.0 specifications
+- ✅ Adds JSDoc/TSDoc/Javadoc comments to code
+- ✅ Creates Markdown API reference guides
+- ✅ Generates request/response examples
+- ✅ Supports REST APIs, GraphQL, and function libraries
+- ✅ Creates Swagger UI and Redoc integration
+
+**Supported Types**:
+- **REST APIs**: Express, Fastify, NestJS, FastAPI, Spring Boot
+- **GraphQL**: Apollo, GraphQL schemas
+- **Comments**: JSDoc, TSDoc, Javadoc, Python docstrings, GoDoc, Rustdoc
+
+**Installation**:
+```bash
+/plugin install https://github.com/mei28/claude-code-commands/doc-gen
+```
+
+**Usage**:
+```
+/doc-gen
+/doc-gen src/api/users.ts
+/doc-gen --openapi
+/doc-gen --jsdoc
+```
+
+---
+
+### 📋 [Changelog](./changelog) - Automated Release Notes
+
+Generates CHANGELOG.md from git commit history following Keep a Changelog format with semantic versioning.
+
+**Use when**: Before creating releases, when preparing release notes, or after merging features
+
+**What it does**:
+- ✅ Follows Keep a Changelog format
+- ✅ Categorizes commits (Added, Changed, Fixed, Deprecated, Removed, Security)
+- ✅ Suggests semantic version bumps
+- ✅ Detects breaking changes prominently
+- ✅ Filters out non-user-facing changes
+- ✅ Adds commit links for traceability
+
+**Commit Categorization**:
+- `feat:` → Added (minor version bump)
+- `fix:` → Fixed (patch version bump)
+- `BREAKING CHANGE:` → Changed with warning (major version bump)
+- `security:` → Security
+- `deprecate:` → Deprecated
+- `remove:` → Removed
+
+**Installation**:
+```bash
+/plugin install https://github.com/mei28/claude-code-commands/changelog
+```
+
+**Usage**:
+```
+/changelog
+/changelog --version 2.1.0
+/changelog --since v2.0.0
+/changelog --preview
+```
+
+---
+
 ## 📦 Installation
 
 ### Install All Plugins
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-code-commands
+git clone https://github.com/mei28/claude-code-commands
 cd claude-code-commands
 
 # Install all plugins
@@ -153,20 +334,35 @@ cd claude-code-commands
 /plugin install $(pwd)/dig
 /plugin install $(pwd)/auto-commit
 /plugin install $(pwd)/pr-template
+/plugin install $(pwd)/code-review
+/plugin install $(pwd)/test-generator
+/plugin install $(pwd)/refactor
+/plugin install $(pwd)/doc-gen
+/plugin install $(pwd)/changelog
 ```
 
 ### Install Individual Plugins
 
 ```bash
-/plugin install https://github.com/YOUR_USERNAME/claude-code-commands/deslop
-/plugin install https://github.com/YOUR_USERNAME/claude-code-commands/dig
-/plugin install https://github.com/YOUR_USERNAME/claude-code-commands/auto-commit
-/plugin install https://github.com/YOUR_USERNAME/claude-code-commands/pr-template
+# Development Workflow
+/plugin install https://github.com/mei28/claude-code-commands/deslop
+/plugin install https://github.com/mei28/claude-code-commands/dig
+/plugin install https://github.com/mei28/claude-code-commands/auto-commit
+/plugin install https://github.com/mei28/claude-code-commands/pr-template
+
+# Code Quality & Testing
+/plugin install https://github.com/mei28/claude-code-commands/code-review
+/plugin install https://github.com/mei28/claude-code-commands/test-generator
+/plugin install https://github.com/mei28/claude-code-commands/refactor
+
+# Documentation & Release
+/plugin install https://github.com/mei28/claude-code-commands/doc-gen
+/plugin install https://github.com/mei28/claude-code-commands/changelog
 ```
 
 ## 🎯 Recommended Workflow
 
-### For New Features
+### For New Features (Complete Workflow)
 
 1. **Clarify Requirements**
    ```
@@ -185,58 +381,149 @@ cd claude-code-commands
    Write code following the plan
    ```
 
-4. **Review & Cleanup**
+4. **Generate Tests**
+   ```
+   /test-generator
+   ```
+   Auto-generate comprehensive unit tests for new code
+
+5. **Review Code Quality**
+   ```
+   /code-review
+   ```
+   Check for bugs, security issues, and performance problems
+
+6. **Refactor if Needed**
+   ```
+   /refactor --suggest
+   ```
+   Get suggestions for complexity reduction and code improvements
+
+7. **Review & Cleanup**
    ```
    /deslop
    ```
    Remove any unnecessary additions or style inconsistencies
 
-5. **Create Commits**
+8. **Generate Documentation**
+   ```
+   /doc-gen
+   ```
+   Create API documentation and code comments
+
+9. **Create Commits**
    ```
    /commit
    ```
    Automatically organize changes into logical commits
 
-6. **Push and Create PR**
-   ```
-   git push
-   gh pr create --title "Add user authentication"
-   ```
+10. **Push and Create PR**
+    ```
+    git push
+    gh pr create --title "Add user authentication"
+    ```
 
-7. **Generate PR Description**
-   ```
-   /pr-template 123
-   ```
-   Copy content from `.tmp/pr-template-123.md` to PR
+11. **Generate PR Description**
+    ```
+    /pr-template 123
+    ```
+    Copy content from `.tmp/pr-template-123.md` to PR
 
-### For Code Review
+### For Code Quality Improvement
 
-1. **Review AI-generated code**
+1. **Review existing code**
    ```
-   /deslop
+   /code-review src/services/
    ```
-   Identify and fix over-engineering
+   Identify issues across quality, security, performance
 
-2. **Run tests**
+2. **Generate tests for coverage**
+   ```
+   /test-generator --coverage
+   ```
+   Add tests for uncovered code paths
+
+3. **Refactor complex code**
+   ```
+   /refactor src/services/orderService.ts
+   ```
+   Reduce complexity and improve maintainability
+
+4. **Run tests**
    ```
    npm test
    ```
 
-3. **Create organized commits**
+5. **Commit improvements**
    ```
    /commit
    ```
 
-4. **Push and create PR**
+### For Release Preparation
+
+1. **Review code quality**
    ```
-   git push
-   gh pr create
+   /code-review
+   ```
+   Final check before release
+
+2. **Ensure test coverage**
+   ```
+   /test-generator --coverage
+   npm test -- --coverage
    ```
 
-5. **Generate PR description**
+3. **Generate/update documentation**
    ```
-   /pr-template <PR_NUMBER>
+   /doc-gen --openapi
    ```
+   Update API docs and specs
+
+4. **Generate changelog**
+   ```
+   /changelog --version 2.1.0
+   ```
+   Create release notes from commits
+
+5. **Commit changelog**
+   ```
+   /commit
+   ```
+
+6. **Create release**
+   ```
+   git tag -a v2.1.0 -m "Release v2.1.0"
+   git push origin v2.1.0
+   gh release create v2.1.0 --notes-file CHANGELOG.md
+   ```
+
+### Quick Workflows by Task
+
+**Bug Fix**:
+```
+1. /test-generator    # Add regression test
+2. [Fix the bug]
+3. /code-review       # Verify fix
+4. /commit            # Commit fix + test
+```
+
+**Refactoring**:
+```
+1. /test-generator    # Safety net
+2. /refactor --suggest # Get suggestions
+3. [Apply refactorings]
+4. npm test           # Verify
+5. /commit            # Commit
+```
+
+**API Development**:
+```
+1. [Implement endpoint]
+2. /doc-gen --openapi # Generate docs
+3. /test-generator    # Generate tests
+4. /code-review       # Check quality
+5. /commit            # Commit all
+```
 
 ## 🛠️ Development
 
@@ -245,30 +532,69 @@ cd claude-code-commands
 ```
 claude-code-commands/
 ├── README.md                    # This file
-├── deslop/                      # Deslop plugin
+│
+├── deslop/                      # AI Code Cleanup
 │   ├── .claude-plugin/
-│   │   └── plugin.json         # Plugin metadata
+│   │   └── plugin.json
 │   ├── commands/
-│   │   └── deslop.md          # Command implementation
-│   └── README.md               # Deslop documentation
-├── dig/                         # Dig plugin
+│   │   └── deslop.md
+│   └── README.md
+│
+├── dig/                         # Requirements Clarification
 │   ├── .claude-plugin/
-│   │   └── plugin.json         # Plugin metadata
+│   │   └── plugin.json
 │   ├── commands/
-│   │   └── dig.md             # Command implementation
-│   └── README.md               # Dig documentation
-├── auto-commit/                 # Auto Commit plugin
+│   │   └── dig.md
+│   └── README.md
+│
+├── auto-commit/                 # Git Commit Automation
 │   ├── .claude-plugin/
-│   │   └── plugin.json         # Plugin metadata
+│   │   └── plugin.json
 │   ├── commands/
-│   │   └── commit.md          # Command implementation
-│   └── README.md               # Auto Commit documentation
-└── pr-template/                 # PR Template plugin
+│   │   └── commit.md
+│   └── README.md
+│
+├── pr-template/                 # PR Description Generator
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   ├── commands/
+│   │   └── pr-template.md
+│   └── README.md
+│
+├── code-review/                 # Code Quality Analysis
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   ├── commands/
+│   │   └── code-review.md
+│   └── README.md
+│
+├── test-generator/              # Unit Test Creation
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   ├── commands/
+│   │   └── test-generator.md
+│   └── README.md
+│
+├── refactor/                    # Code Refactoring
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   ├── commands/
+│   │   └── refactor.md
+│   └── README.md
+│
+├── doc-gen/                     # API Documentation
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   ├── commands/
+│   │   └── doc-gen.md
+│   └── README.md
+│
+└── changelog/                   # Release Notes
     ├── .claude-plugin/
-    │   └── plugin.json         # Plugin metadata
+    │   └── plugin.json
     ├── commands/
-    │   └── pr-template.md     # Command implementation
-    └── README.md               # PR Template documentation
+    │   └── changelog.md
+    └── README.md
 ```
 
 ### Adding New Plugins
@@ -339,9 +665,9 @@ Inspired by the growing Claude Code community and the need for better AI-assiste
 
 ## 🔗 Links
 
-- Repository: https://github.com/YOUR_USERNAME/claude-code-commands
-- Issues: https://github.com/YOUR_USERNAME/claude-code-commands/issues
-- Discussions: https://github.com/YOUR_USERNAME/claude-code-commands/discussions
+- Repository: https://github.com/mei28/claude-code-commands
+- Issues: https://github.com/mei28/claude-code-commands/issues
+- Discussions: https://github.com/mei28/claude-code-commands/discussions
 
 ## ⭐ Star History
 

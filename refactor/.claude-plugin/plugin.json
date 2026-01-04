@@ -1,0 +1,10 @@
+{
+  "name": "refactor",
+  "version": "1.0.0",
+  "description": "Suggests and applies code refactoring improvements including complexity reduction, code smell removal, and pattern improvements. Analyzes code quality metrics and provides actionable refactoring recommendations.",
+  "author": {
+    "name": "Claude Code Community"
+  },
+  "license": "GPL-3.0",
+  "keywords": ["refactoring", "code-quality", "complexity", "code-smell", "clean-code", "maintainability"]
+}
