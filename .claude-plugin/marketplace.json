@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-code-plugins",
+  "name": "mei-marketplace",
   "version": "1.0.0",
   "description": "mei's personal claude code plugin marketplace",
   "owner": {
