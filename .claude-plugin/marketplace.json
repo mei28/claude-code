@@ -1,0 +1,102 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-code-plugins",
+  "version": "1.0.0",
+  "description": "mei's personal claude code plugin marketplace",
+  "owner": {
+    "name": "mei28",
+    "email": "51149822+mei28@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "deslop",
+      "source": "./deslop",
+      "description": "AI code cleanup - removes unnecessary additions in AI-generated code",
+      "version": "1.0.0",
+      "author": {
+        "name": "mei"
+      },
+      "keywords": ["code-quality", "cleanup", "ai-review", "style-consistency"]
+    },
+    {
+      "name": "dig",
+      "source": "./dig",
+      "description": "Requirements clarification through structured questions",
+      "version": "1.0.0",
+      "author": {
+        "name": "mei"
+      },
+      "keywords": ["planning", "requirements", "clarification", "architecture"]
+    },
+    {
+      "name": "auto-commit",
+      "source": "./auto-commit",
+      "description": "Intelligent git commit automation with Angular.js conventions",
+      "version": "1.0.0",
+      "author": {
+        "name": "mei"
+      },
+      "keywords": ["git", "commit", "automation", "conventional-commits"]
+    },
+    {
+      "name": "pr-template",
+      "source": "./pr-template",
+      "description": "PR description generator using GitHub CLI",
+      "version": "1.0.0",
+      "author": {
+        "name": "mei"
+      },
+      "keywords": ["github", "pull-request", "documentation", "pr-template"]
+    },
+    {
+      "name": "code-review",
+      "source": "./code-review",
+      "description": "Automated code quality analysis with security and performance checks",
+      "version": "1.0.0",
+      "author": {
+        "name": "mei"
+      },
+      "keywords": ["code-review", "quality", "security", "bugs", "best-practices", "static-analysis"]
+    },
+    {
+      "name": "test-generator",
+      "source": "./test-generator",
+      "description": "Automatic unit test generation for multiple frameworks",
+      "version": "1.0.0",
+      "author": {
+        "name": "mei"
+      },
+      "keywords": ["testing", "unit-test", "test-generation", "tdd", "coverage", "automation"]
+    },
+    {
+      "name": "refactor",
+      "source": "./refactor",
+      "description": "Code refactoring with complexity reduction and pattern improvements",
+      "version": "1.0.0",
+      "author": {
+        "name": "mei"
+      },
+      "keywords": ["refactoring", "code-quality", "complexity", "technical-debt", "patterns"]
+    },
+    {
+      "name": "doc-gen",
+      "source": "./doc-gen",
+      "description": "API documentation generator with OpenAPI/Swagger support",
+      "version": "1.0.0",
+      "author": {
+        "name": "mei"
+      },
+      "keywords": ["documentation", "api-docs", "openapi", "swagger", "jsdoc", "tsdoc", "api-reference"]
+    },
+    {
+      "name": "changelog",
+      "source": "./changelog",
+      "description": "CHANGELOG.md generator from git history with semantic versioning",
+      "version": "1.0.0",
+      "author": {
+        "name": "mei"
+      },
+      "keywords": ["changelog", "release-notes", "versioning", "semver", "keep-a-changelog", "git-history"]
+    }
+  ]
+}
