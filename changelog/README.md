@@ -17,14 +17,22 @@ This plugin transforms raw git history into structured release notes:
 
 ## Installation
 
+### From Marketplace (Recommended)
+
 ```bash
-/plugin install https://github.com/mei28/claude-code/changelog
+# Add marketplace first (one time only)
+/plugin marketplace add https://github.com/mei28/claude-code
+
+# Install plugin
+/plugin install changelog@mei28/claude-code
 ```
 
-Or manually:
+### From Local Path
+
 ```bash
 git clone https://github.com/mei28/claude-code
-ln -s $(pwd)/claude-code/changelog ~/.claude/plugins/changelog
+cd claude-code
+/plugin install $(pwd)/changelog
 ```
 
 ## Usage

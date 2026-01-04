@@ -323,7 +323,51 @@ Generates CHANGELOG.md from git commit history following Keep a Changelog format
 
 ## 📦 Installation
 
-### Install All Plugins
+### Method 1: Install from Marketplace (Recommended)
+
+First, add the marketplace:
+
+```bash
+/plugin marketplace add https://github.com/mei28/claude-code
+```
+
+Then install individual plugins:
+
+```bash
+# Development Workflow
+/plugin install deslop@mei28/claude-code
+/plugin install dig@mei28/claude-code
+/plugin install auto-commit@mei28/claude-code
+/plugin install pr-template@mei28/claude-code
+
+# Code Quality & Testing
+/plugin install code-review@mei28/claude-code
+/plugin install test-generator@mei28/claude-code
+/plugin install refactor@mei28/claude-code
+
+# Documentation & Release
+/plugin install doc-gen@mei28/claude-code
+/plugin install changelog@mei28/claude-code
+```
+
+Or install all at once:
+
+```bash
+/plugin marketplace add https://github.com/mei28/claude-code
+/plugin install deslop@mei28/claude-code
+/plugin install dig@mei28/claude-code
+/plugin install auto-commit@mei28/claude-code
+/plugin install pr-template@mei28/claude-code
+/plugin install code-review@mei28/claude-code
+/plugin install test-generator@mei28/claude-code
+/plugin install refactor@mei28/claude-code
+/plugin install doc-gen@mei28/claude-code
+/plugin install changelog@mei28/claude-code
+```
+
+### Method 2: Install from Local Path
+
+Clone the repository and install locally:
 
 ```bash
 git clone https://github.com/mei28/claude-code
@@ -339,25 +383,6 @@ cd claude-code
 /plugin install $(pwd)/refactor
 /plugin install $(pwd)/doc-gen
 /plugin install $(pwd)/changelog
-```
-
-### Install Individual Plugins
-
-```bash
-# Development Workflow
-/plugin install https://github.com/mei28/claude-code/deslop
-/plugin install https://github.com/mei28/claude-code/dig
-/plugin install https://github.com/mei28/claude-code/auto-commit
-/plugin install https://github.com/mei28/claude-code/pr-template
-
-# Code Quality & Testing
-/plugin install https://github.com/mei28/claude-code/code-review
-/plugin install https://github.com/mei28/claude-code/test-generator
-/plugin install https://github.com/mei28/claude-code/refactor
-
-# Documentation & Release
-/plugin install https://github.com/mei28/claude-code/doc-gen
-/plugin install https://github.com/mei28/claude-code/changelog
 ```
 
 ## 🎯 Recommended Workflow

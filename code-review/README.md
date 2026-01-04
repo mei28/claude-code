@@ -17,14 +17,22 @@ This plugin analyzes your code across six critical dimensions:
 
 ## Installation
 
+### From Marketplace (Recommended)
+
 ```bash
-/plugin install https://github.com/mei28/claude-code/code-review
+# Add marketplace first (one time only)
+/plugin marketplace add https://github.com/mei28/claude-code
+
+# Install plugin
+/plugin install code-review@mei28/claude-code
 ```
 
-Or manually:
+### From Local Path
+
 ```bash
 git clone https://github.com/mei28/claude-code
-ln -s $(pwd)/claude-code/code-review ~/.claude/plugins/code-review
+cd claude-code
+/plugin install $(pwd)/code-review
 ```
 
 ## Usage

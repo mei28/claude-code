@@ -21,14 +21,22 @@ Supports multiple API types:
 
 ## Installation
 
+### From Marketplace (Recommended)
+
 ```bash
-/plugin install https://github.com/mei28/claude-code/doc-gen
+# Add marketplace first (one time only)
+/plugin marketplace add https://github.com/mei28/claude-code
+
+# Install plugin
+/plugin install doc-gen@mei28/claude-code
 ```
 
-Or manually:
+### From Local Path
+
 ```bash
 git clone https://github.com/mei28/claude-code
-ln -s $(pwd)/claude-code/doc-gen ~/.claude/plugins/doc-gen
+cd claude-code
+/plugin install $(pwd)/doc-gen
 ```
 
 ## Usage

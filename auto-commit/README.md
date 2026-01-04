@@ -16,14 +16,22 @@ Transforms messy, unorganized changes into clean, atomic commits:
 
 ## Installation
 
+### From Marketplace (Recommended)
+
 ```bash
-/plugin install https://github.com/mei28/claude-code/auto-commit
+# Add marketplace first (one time only)
+/plugin marketplace add https://github.com/mei28/claude-code
+
+# Install plugin
+/plugin install auto-commit@mei28/claude-code
 ```
 
-Or manually:
+### From Local Path
+
 ```bash
 git clone https://github.com/mei28/claude-code
-ln -s $(pwd)/claude-code/auto-commit ~/.claude/plugins/auto-commit
+cd claude-code
+/plugin install $(pwd)/auto-commit
 ```
 
 ## Usage

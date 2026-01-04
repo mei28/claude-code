@@ -24,14 +24,22 @@ Supports multiple testing frameworks:
 
 ## Installation
 
+### From Marketplace (Recommended)
+
 ```bash
-/plugin install https://github.com/mei28/claude-code/test-generator
+# Add marketplace first (one time only)
+/plugin marketplace add https://github.com/mei28/claude-code
+
+# Install plugin
+/plugin install test-generator@mei28/claude-code
 ```
 
-Or manually:
+### From Local Path
+
 ```bash
 git clone https://github.com/mei28/claude-code
-ln -s $(pwd)/claude-code/test-generator ~/.claude/plugins/test-generator
+cd claude-code
+/plugin install $(pwd)/test-generator
 ```
 
 ## Usage

@@ -16,14 +16,22 @@ Transforms minimal PR information into comprehensive documentation:
 
 ## Installation
 
+### From Marketplace (Recommended)
+
 ```bash
-/plugin install https://github.com/mei28/claude-code/pr-template
+# Add marketplace first (one time only)
+/plugin marketplace add https://github.com/mei28/claude-code
+
+# Install plugin
+/plugin install pr-template@mei28/claude-code
 ```
 
-Or manually:
+### From Local Path
+
 ```bash
 git clone https://github.com/mei28/claude-code
-ln -s $(pwd)/claude-code/pr-template ~/.claude/plugins/pr-template
+cd claude-code
+/plugin install $(pwd)/pr-template
 ```
 
 ## Usage
