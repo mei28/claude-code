@@ -16,13 +16,13 @@ Before you start implementing a feature, Dig:
 ## Installation
 
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/dig
+/plugin install https://github.com/mei28/claude-code/dig
 ```
 
 Or manually:
 ```bash
-git clone https://github.com/mei28/claude-code-commands
-ln -s $(pwd)/claude-code-commands/dig ~/.claude/plugins/dig
+git clone https://github.com/mei28/claude-code
+ln -s $(pwd)/claude-code/dig ~/.claude/plugins/dig
 ```
 
 ## Usage

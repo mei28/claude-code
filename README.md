@@ -19,7 +19,7 @@ Detects and removes unnecessary additions in AI-generated code, helping maintain
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/deslop
+/plugin install https://github.com/mei28/claude-code/deslop
 ```
 
 **Usage**:
@@ -54,7 +54,7 @@ Identifies ambiguities in requirements and architecture through structured quest
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/dig
+/plugin install https://github.com/mei28/claude-code/dig
 ```
 
 **Usage**:
@@ -92,7 +92,7 @@ Analyzes unstaged git changes and automatically creates well-structured, logical
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/auto-commit
+/plugin install https://github.com/mei28/claude-code/auto-commit
 ```
 
 **Usage**:
@@ -124,7 +124,7 @@ Generates comprehensive PR descriptions in English (default) or Japanese by anal
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/pr-template
+/plugin install https://github.com/mei28/claude-code/pr-template
 ```
 
 **Usage**:
@@ -164,7 +164,7 @@ Performs comprehensive automated code quality analysis, detecting bugs, security
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/code-review
+/plugin install https://github.com/mei28/claude-code/code-review
 ```
 
 **Usage**:
@@ -200,7 +200,7 @@ Automatically generates comprehensive unit tests for functions, classes, and mod
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/test-generator
+/plugin install https://github.com/mei28/claude-code/test-generator
 ```
 
 **Usage**:
@@ -237,7 +237,7 @@ Suggests and applies code refactoring improvements including complexity reductio
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/refactor
+/plugin install https://github.com/mei28/claude-code/refactor
 ```
 
 **Usage**:
@@ -271,7 +271,7 @@ Generates comprehensive API documentation from code including OpenAPI/Swagger sp
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/doc-gen
+/plugin install https://github.com/mei28/claude-code/doc-gen
 ```
 
 **Usage**:
@@ -308,7 +308,7 @@ Generates CHANGELOG.md from git commit history following Keep a Changelog format
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/changelog
+/plugin install https://github.com/mei28/claude-code/changelog
 ```
 
 **Usage**:
@@ -326,8 +326,8 @@ Generates CHANGELOG.md from git commit history following Keep a Changelog format
 ### Install All Plugins
 
 ```bash
-git clone https://github.com/mei28/claude-code-commands
-cd claude-code-commands
+git clone https://github.com/mei28/claude-code
+cd claude-code
 
 # Install all plugins
 /plugin install $(pwd)/deslop
@@ -345,19 +345,19 @@ cd claude-code-commands
 
 ```bash
 # Development Workflow
-/plugin install https://github.com/mei28/claude-code-commands/deslop
-/plugin install https://github.com/mei28/claude-code-commands/dig
-/plugin install https://github.com/mei28/claude-code-commands/auto-commit
-/plugin install https://github.com/mei28/claude-code-commands/pr-template
+/plugin install https://github.com/mei28/claude-code/deslop
+/plugin install https://github.com/mei28/claude-code/dig
+/plugin install https://github.com/mei28/claude-code/auto-commit
+/plugin install https://github.com/mei28/claude-code/pr-template
 
 # Code Quality & Testing
-/plugin install https://github.com/mei28/claude-code-commands/code-review
-/plugin install https://github.com/mei28/claude-code-commands/test-generator
-/plugin install https://github.com/mei28/claude-code-commands/refactor
+/plugin install https://github.com/mei28/claude-code/code-review
+/plugin install https://github.com/mei28/claude-code/test-generator
+/plugin install https://github.com/mei28/claude-code/refactor
 
 # Documentation & Release
-/plugin install https://github.com/mei28/claude-code-commands/doc-gen
-/plugin install https://github.com/mei28/claude-code-commands/changelog
+/plugin install https://github.com/mei28/claude-code/doc-gen
+/plugin install https://github.com/mei28/claude-code/changelog
 ```
 
 ## 🎯 Recommended Workflow
@@ -530,7 +530,7 @@ cd claude-code-commands
 ### Project Structure
 
 ```
-claude-code-commands/
+claude-code/
 ├── README.md                    # This file
 │
 ├── deslop/                      # AI Code Cleanup
@@ -665,9 +665,9 @@ Inspired by the growing Claude Code community and the need for better AI-assiste
 
 ## 🔗 Links
 
-- Repository: https://github.com/mei28/claude-code-commands
-- Issues: https://github.com/mei28/claude-code-commands/issues
-- Discussions: https://github.com/mei28/claude-code-commands/discussions
+- Repository: https://github.com/mei28/claude-code
+- Issues: https://github.com/mei28/claude-code/issues
+- Discussions: https://github.com/mei28/claude-code/discussions
 
 ## ⭐ Star History
 

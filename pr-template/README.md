@@ -17,13 +17,13 @@ Transforms minimal PR information into comprehensive documentation:
 ## Installation
 
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/pr-template
+/plugin install https://github.com/mei28/claude-code/pr-template
 ```
 
 Or manually:
 ```bash
-git clone https://github.com/mei28/claude-code-commands
-ln -s $(pwd)/claude-code-commands/pr-template ~/.claude/plugins/pr-template
+git clone https://github.com/mei28/claude-code
+ln -s $(pwd)/claude-code/pr-template ~/.claude/plugins/pr-template
 ```
 
 ## Usage

@@ -25,13 +25,13 @@ Supports multiple testing frameworks:
 ## Installation
 
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/test-generator
+/plugin install https://github.com/mei28/claude-code/test-generator
 ```
 
 Or manually:
 ```bash
-git clone https://github.com/mei28/claude-code-commands
-ln -s $(pwd)/claude-code-commands/test-generator ~/.claude/plugins/test-generator
+git clone https://github.com/mei28/claude-code
+ln -s $(pwd)/claude-code/test-generator ~/.claude/plugins/test-generator
 ```
 
 ## Usage

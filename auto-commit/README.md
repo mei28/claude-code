@@ -17,13 +17,13 @@ Transforms messy, unorganized changes into clean, atomic commits:
 ## Installation
 
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/auto-commit
+/plugin install https://github.com/mei28/claude-code/auto-commit
 ```
 
 Or manually:
 ```bash
-git clone https://github.com/mei28/claude-code-commands
-ln -s $(pwd)/claude-code-commands/auto-commit ~/.claude/plugins/auto-commit
+git clone https://github.com/mei28/claude-code
+ln -s $(pwd)/claude-code/auto-commit ~/.claude/plugins/auto-commit
 ```
 
 ## Usage

@@ -18,13 +18,13 @@ This plugin analyzes your code across six critical dimensions:
 ## Installation
 
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/code-review
+/plugin install https://github.com/mei28/claude-code/code-review
 ```
 
 Or manually:
 ```bash
-git clone https://github.com/mei28/claude-code-commands
-ln -s $(pwd)/claude-code-commands/code-review ~/.claude/plugins/code-review
+git clone https://github.com/mei28/claude-code
+ln -s $(pwd)/claude-code/code-review ~/.claude/plugins/code-review
 ```
 
 ## Usage

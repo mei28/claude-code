@@ -17,13 +17,13 @@ Deslop analyzes your existing codebase patterns and identifies these issues in A
 ## Installation
 
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/deslop
+/plugin install https://github.com/mei28/claude-code/deslop
 ```
 
 Or manually:
 ```bash
-git clone https://github.com/mei28/claude-code-commands
-ln -s $(pwd)/claude-code-commands/deslop ~/.claude/plugins/deslop
+git clone https://github.com/mei28/claude-code
+ln -s $(pwd)/claude-code/deslop ~/.claude/plugins/deslop
 ```
 
 ## Usage

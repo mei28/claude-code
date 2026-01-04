@@ -18,13 +18,13 @@ This plugin transforms raw git history into structured release notes:
 ## Installation
 
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/changelog
+/plugin install https://github.com/mei28/claude-code/changelog
 ```
 
 Or manually:
 ```bash
-git clone https://github.com/mei28/claude-code-commands
-ln -s $(pwd)/claude-code-commands/changelog ~/.claude/plugins/changelog
+git clone https://github.com/mei28/claude-code
+ln -s $(pwd)/claude-code/changelog ~/.claude/plugins/changelog
 ```
 
 ## Usage

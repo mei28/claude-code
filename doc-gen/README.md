@@ -22,13 +22,13 @@ Supports multiple API types:
 ## Installation
 
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/doc-gen
+/plugin install https://github.com/mei28/claude-code/doc-gen
 ```
 
 Or manually:
 ```bash
-git clone https://github.com/mei28/claude-code-commands
-ln -s $(pwd)/claude-code-commands/doc-gen ~/.claude/plugins/doc-gen
+git clone https://github.com/mei28/claude-code
+ln -s $(pwd)/claude-code/doc-gen ~/.claude/plugins/doc-gen
 ```
 
 ## Usage

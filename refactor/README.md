@@ -18,13 +18,13 @@ This plugin identifies and helps fix common code quality issues:
 ## Installation
 
 ```bash
-/plugin install https://github.com/mei28/claude-code-commands/refactor
+/plugin install https://github.com/mei28/claude-code/refactor
 ```
 
 Or manually:
 ```bash
-git clone https://github.com/mei28/claude-code-commands
-ln -s $(pwd)/claude-code-commands/refactor ~/.claude/plugins/refactor
+git clone https://github.com/mei28/claude-code
+ln -s $(pwd)/claude-code/refactor ~/.claude/plugins/refactor
 ```
 
 ## Usage
