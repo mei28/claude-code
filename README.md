@@ -19,7 +19,7 @@ Detects and removes unnecessary additions in AI-generated code, helping maintain
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code/deslop
+/plugin install deslop@mei28/claude-code
 ```
 
 **Usage**:
@@ -54,7 +54,7 @@ Identifies ambiguities in requirements and architecture through structured quest
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code/dig
+/plugin install dig@mei28/claude-code
 ```
 
 **Usage**:
@@ -92,7 +92,7 @@ Analyzes unstaged git changes and automatically creates well-structured, logical
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code/auto-commit
+/plugin install auto-commit@mei28/claude-code
 ```
 
 **Usage**:
@@ -124,7 +124,7 @@ Generates comprehensive PR descriptions in English (default) or Japanese by anal
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code/pr-template
+/plugin install pr-template@mei28/claude-code
 ```
 
 **Usage**:
@@ -164,7 +164,7 @@ Performs comprehensive automated code quality analysis, detecting bugs, security
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code/code-review
+/plugin install code-review@mei28/claude-code
 ```
 
 **Usage**:
@@ -200,7 +200,7 @@ Automatically generates comprehensive unit tests for functions, classes, and mod
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code/test-generator
+/plugin install test-generator@mei28/claude-code
 ```
 
 **Usage**:
@@ -237,7 +237,7 @@ Suggests and applies code refactoring improvements including complexity reductio
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code/refactor
+/plugin install refactor@mei28/claude-code
 ```
 
 **Usage**:
@@ -271,7 +271,7 @@ Generates comprehensive API documentation from code including OpenAPI/Swagger sp
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code/doc-gen
+/plugin install doc-gen@mei28/claude-code
 ```
 
 **Usage**:
@@ -308,7 +308,7 @@ Generates CHANGELOG.md from git commit history following Keep a Changelog format
 
 **Installation**:
 ```bash
-/plugin install https://github.com/mei28/claude-code/changelog
+/plugin install changelog@mei28/claude-code
 ```
 
 **Usage**:
